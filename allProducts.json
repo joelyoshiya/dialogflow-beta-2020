@@ -1,0 +1,132 @@
+{
+    "products": [
+        {
+            "category": "sweatshirts",
+            "description": "Bucky Crew Neck Sweatshirt",
+            "id": 2,
+            "image": "https://www.uwbookstore.com/storeimages/177-843542-1_hi.jpg",
+            "name": "Bucky Crew Neck Sweatshirt",
+            "price": 40.0
+        },
+        {
+            "category": "plushes",
+            "description": "A perfect fuzzy, fluffy, Bucky Badger!",
+            "id": 3,
+            "image": "https://www.uwbookstore.com/storeimages/177-260250-2_hi.jpg",
+            "name": "Bucky Badger Plush",
+            "price": 13.0
+        },
+        {
+            "category": "leggings",
+            "description": "Show off your Wisconsin spirit with these Bucky Badger leggings! These leggings feature a red spacedye detail down either side. They have a full color Bucky Badger on the left side and come complete with side pockets for your phone or other belongings. They're perfect for game day or wearing to the gym!",
+            "id": 4,
+            "image": "https://www.uwbookstore.com/storeimages/177-1532069-2_hi.jpg",
+            "name": "Wisconsin Leggings",
+            "price": 50.0
+        },
+        {
+            "category": "plushes",
+            "description": "Get ready to Jump Around with this #GameDay Bucky stuffed animal. The 12″ plush features a Jump Around long sleeve, red and white bib overalls, Wisconsin motion W face tattoo, and fun red and white shoes! A must for any Wisconsin fan!",
+            "id": 5,
+            "image": "https://www.uwbookstore.com/storeimages/177-1572751-1_hi.png",
+            "name": "Game Day Bucky Plush",
+            "price": 25.0
+        },
+        {
+            "category": "leggings",
+            "description": "Cheer on the Wisconsin Badgers in style with these Bucky Badger leggings. Comfy and stretchy, the allover print will be sure to turn heads! Perfect with a Jump Around tee on game day!",
+            "id": 6,
+            "image": "https://www.uwbookstore.com/storeimages/177-1082244-1_hi.jpg",
+            "name": "Bucky Badger Leggings",
+            "price": 40.0
+        },
+        {
+            "category": "plushes",
+            "description": "The most comfortable pillow to help show off your Wisconsin spirit! This cloud pillow features a white motion W on the front and Wisconsin Badgers lettering around the outside.",
+            "id": 7,
+            "image": "https://www.uwbookstore.com/storeimages/177-1570568-1_hi.png",
+            "name": "W Cloud Pillow",
+            "price": 25.0
+        },
+        {
+            "category": "plushes",
+            "description": "Add an extremely soft, comfy pillow to your bed with this awesome Northwest Bucky Badger Pillow Cloud. In the shape of a ball, this pillow is in the color red and features Bucky Badger on the front.",
+            "id": 8,
+            "image": "https://www.uwbookstore.com/storeimages/177-1562038-1_hi.png",
+            "name": "Bucky Badger Pillow",
+            "price": 20.0
+        },
+        {
+            "category": "plushes",
+            "description": "Show off your love of Bucky Badger with this fun keychain! This keychain features a plush Bucky Badger. It's the perfect addition to your Wisconsin lanyard or keyring.",
+            "id": 9,
+            "image": "https://www.uwbookstore.com/storeimages/177-1533725-1_hi.jpg",
+            "name": "Bucky Badger Keychain",
+            "price": 12.0
+        },
+        {
+            "category": "hats",
+            "description": "Show your support for Wisconsin football in this stylish red hat. It features an embroidered graphic of 'Wisconsin Football' and a motion W, as well as the Big Ten logo on the right side. Features Heat°gear technology, which is designed for temperatures above 75° and will keep you looking and feeling cool all day long.",
+            "id": 10,
+            "image": "https://www.uwbookstore.com/storeimages/177-1204357-2_hi.jpg",
+            "name": "Wisconsin Football Hat",
+            "price": 30.0
+        },
+        {
+            "category": "hats",
+            "description": "This lightweight and breathable visor is perfect for game day! The ArmourVent technology delivers a light, stretchy, durable, and fast-drying fabric. The visor is detailed with an embroidered motion W on the front. The adjustable back features a soft hook & loop Velcro.",
+            "id": 11,
+            "image": "https://www.uwbookstore.com/storeimages/177-1524818-2_hi.jpg",
+            "name": "White Wisconsin Visor",
+            "price": 12.0
+        },
+        {
+            "category": "tees",
+            "description": "You will be ready for football season with this Jump Around t-shirt! The red tee features 'Jump Around' with a printed Wisconsin motion W and an Under Armour logo across the front. The soft shirt feels great and wicks away sweat on hot days.",
+            "id": 12,
+            "image": "https://www.uwbookstore.com/storeimages/177-1522038-1_hi.jpg",
+            "name": "Jump Around Shirt",
+            "price": 30.0
+        },
+        {
+            "category": "sweatshirts",
+            "description": "Bucky Crew Neck Sweatshirt",
+            "id": 13,
+            "image": "https://www.uwbookstore.com/storeimages/177-1567559-2_hi.png",
+            "name": "150 Year Commemorative Hoodie",
+            "price": 90.0
+        },
+        {
+            "category": "bottoms",
+            "description": "You can show off your Wisconsin Badger pride with these super soft joggers. The cozy material feels soft and luxurious making them comfy and stylish. The joggers feature a drawstring waist, side pockets, and closed bottom.",
+            "id": 14,
+            "image": "https://www.uwbookstore.com/storeimages/177-1527930-1_hi.jpg",
+            "name": "Women's Wisconsin Cuddle Joggers",
+            "price": 50.0
+        },
+        {
+            "category": "bottoms",
+            "description": "These super comfy sweatpants are the perfect way to watch the Badger game! The left leg feature a printed 'Wisconsin' and a Wisconsin motion W. The pants are detailed with an elastic drawstring waist, side pockets, and an open leg.",
+            "id": 15,
+            "image": "https://www.uwbookstore.com/storeimages/177-1525642-1_hi.jpg",
+            "name": "Wisconsin Sweatpants",
+            "price": 40.0
+        },
+        {
+            "category": "bottoms",
+            "description": "Stay feeling cool during hot Madison summers or when working out at the Nat with these loose Under Armour Wisconsin Qualifier Shorts that have an ultra-lightweight, stretchy woven fabric that delivers superior mobility. The Moisture Transport System wicks sweat and dries fast. There is an encased elastic waistband with an external drawcord, a notch at the hem which allows for better lateral movement and mesh hand pockets.",
+            "id": 16,
+            "image": "https://www.uwbookstore.com/storeimages/177-1554007-1_hi.png",
+            "name": "Wisconsin Qualifier Woven Short",
+            "price": 50.0
+        },
+        {
+            "category": "bottoms",
+            "description": "These shorts have it all, strategic mesh, pockets, wide elastic waistband, and Wisconsin Badger logos! You will be ready to run faster with these woven shorts!",
+            "id": 17,
+            "image": "https://www.uwbookstore.com/storeimages/177-1540935-1_hi.jpg",
+            "name": "Wisconsin Running Shorts",
+            "price": 45.0
+        }
+    ]
+}
