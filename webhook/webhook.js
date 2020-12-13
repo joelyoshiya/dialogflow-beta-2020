@@ -8,10 +8,10 @@ let username = "";
 let password = "";
 let token = "";
 
-USE_LOCAL_ENDPOINT = false;
+var USE_LOCAL_ENDPOINT = false;
 // set this flag to true if you want to use a local endpoint
 // set this flag to false if you want to use the online endpoint
-ENDPOINT_URL = "";
+var ENDPOINT_URL = "";
 if (USE_LOCAL_ENDPOINT) {
   ENDPOINT_URL = "http://127.0.0.1:5000";
 } else {
@@ -123,7 +123,7 @@ app.post("/", express.json(), (req, res) => {
       ).catch((error) => console.log(error));
       let result = await response.json();
 
-      if (result.message == "Application state modified!") {
+      if (result.message === "Application state modified!") {
         agent.add("Currently at the " + category + " page.");
         //agent.add(result.message);
       }
@@ -159,7 +159,7 @@ app.post("/", express.json(), (req, res) => {
       ).catch((error) => console.log(error));
       let result = await response.json();
 
-      if (result.message == "Application state modified!") {
+      if (result.message === "Application state modified!") {
         agent.add("Currently at the home page.");
         //agent.add(result.message);
       }
@@ -194,7 +194,7 @@ app.post("/", express.json(), (req, res) => {
       ).catch((error) => console.log(error));
       let result = await response.json();
 
-      if (result.message == "Application state modified!") {
+      if (result.message === "Application state modified!") {
         agent.add("Currently at the cart page.");
         //agent.add(result.message);
       }
@@ -225,9 +225,9 @@ app.post("/", express.json(), (req, res) => {
   }
 
   async function fetchProductInfo() {
-    productId = "";
-    productName = agent.parameters.product_name;
-    productInfo = agent.parameters.product_info;
+    let productId = "";
+    let productName = agent.parameters.product_name;
+    let productInfo = agent.parameters.product_info;
 
     agent.add(
       "Searching for " +
@@ -249,7 +249,7 @@ app.post("/", express.json(), (req, res) => {
     let result = await response.json();
     let products = result.products;
     products.forEach((product) => {
-      if (productName == product.name) {
+      if (productName === product.name) {
         productId = product.id;
         // agent.add(productId + " is the products id");
       }
@@ -257,7 +257,7 @@ app.post("/", express.json(), (req, res) => {
     //now going to fetch product info with id, display requested info
 
     //only if the information is not related to ratings or reviews
-    if (productInfo != "review" && productInfo != "ratings") {
+    if (productInfo !== "review" && productInfo !== "ratings") {
       let response_2 = await fetch(
         "https://mysqlcs639.cs.wisc.edu/products/" + productId,
         requestOptions
@@ -265,7 +265,7 @@ app.post("/", express.json(), (req, res) => {
       let prod_result = await response_2.json();
       console.log(prod_result);
       for (const [key, value] of Object.entries(prod_result)) {
-        if (key == productInfo) {
+        if (key === productInfo) {
           agent.add(key + ": " + value);
         }
       }
@@ -274,16 +274,16 @@ app.post("/", express.json(), (req, res) => {
       // /products/<product_id>/tags
       // /products/<product_id>/reviews
       // /products/<product_id>/reviews/<review_id></review_id>
-      if (productInfo == "review" || productInfo == "ratings") {
+      if (productInfo === "review" || productInfo === "ratings") {
         let response_3 = await fetch(
           "https://mysqlcs639.cs.wisc.edu/products/" + productId + "/reviews",
           requestOptions
         ).catch((error) => agent.add(error));
         let rev_result = await response_3.json();
         //array of reviews stored
-        reviews = rev_result.reviews;
+        let reviews = rev_result.reviews;
         //Output "title", "text" content
-        if (productInfo == "review") {
+        if (productInfo === "review") {
           reviews.forEach((review) => {
             agent.add(
               "Review title: " +
@@ -296,7 +296,7 @@ app.post("/", express.json(), (req, res) => {
         }
 
         //calculate average rating using "stars"
-        if (productInfo == "ratings") {
+        if (productInfo === "ratings") {
           let totScore = 0;
           let totRev = 0;
           reviews.forEach((review) => {
@@ -490,7 +490,7 @@ app.post("/", express.json(), (req, res) => {
 
       console.log(result);
       agent.add("All tags that are applied: ");
-      if (result.tags.length == 0) {
+      if (result.tags.length === 0) {
         agent.add("no tags at this point.");
       } else {
         agent.add(result.tags);
